@@ -1,0 +1,435 @@
+CACHE MANIFEST
+# v1.0 : Jason Beguas
+ 
+CACHE:
+# pages
+index.html
+ 
+# styles & scripts
+assets/js/js1.js
+assets/css/styles.min.css
+assets/bootstrap/css/bootstrap.min.css
+assets/css/styles.css
+assets/js/jquery.min.js
+assets/bootstrap/js/bootstrap.min.js
+assets/js/script.min.js
+https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js
+
+# audio file
+assets/Resources/blank.wav
+assets/Resources/CALL_FLOW/GOOD MORNING.webm
+assets/Resources/CALL_FLOW/GOOD EVENING.webm
+assets/Resources/CALL_FLOW/HELLO.webm
+assets/Resources/CALL_FLOW/TITLE.webm
+assets/Resources/CALL_FLOW/INTRODUCTION + HOMESTATUS.webm
+assets/Resources/CALL_FLOW/TYPE OF PROPERTY.webm
+assets/Resources/CALL_FLOW/FIRST NAME.webm
+assets/Resources/CALL_FLOW/LAST NAME.webm
+assets/Resources/CALL_FLOW/AGE 50-80.webm
+assets/Resources/CALL_FLOW/75 POUNDS.webm
+assets/Resources/CALL_FLOW/LOFT INSULATION INSTALLED.webm
+assets/Resources/CALL_FLOW/TYPE OF INSULATION.webm
+assets/Resources/CALL_FLOW/LOFT CONVERTED INTO BEDROOM.webm
+assets/Resources/CALL_FLOW/ADDRESS.webm
+assets/Resources/CALL_FLOW/HOUSE NO..webm
+assets/Resources/CALL_FLOW/POSTCODE.webm
+assets/Resources/CALL_FLOW/How much.webm
+assets/Resources/CALL_FLOW/Hello 3.webm
+assets/Resources/CALL_FLOW/Script.webm
+assets/Resources/CALL_FLOW/Having trouble hearing you.webm
+assets/Resources/CALL_FLOW/I'm sorry.webm
+assets/Resources/CALL_FLOW/Yes.webm
+assets/Resources/CALL_FLOW/Feel better soon.webm
+assets/Resources/CALL_FLOW/As we we're talking about.webm
+assets/Resources/CALL_FLOW/By the way.webm
+assets/Resources/CALL_FLOW/Can you hear me.webm
+assets/Resources/CALL_FLOW/Laugh.webm
+assets/Resources/CALL_FLOW/I'm well thank you.webm
+assets/Resources/CALL_FLOW/Promise not to keep long.webm
+assets/Resources/CALL_FLOW/Great.webm
+assets/Resources/CALL_FLOW/Busy can't talk. Callback.webm
+assets/Resources/CALL_FLOW/One off.webm
+assets/Resources/CALL_FLOW/Script 7.webm
+assets/Resources/CALL_FLOW/Script 6.webm
+assets/Resources/CALL_FLOW/Script 5.webm
+assets/Resources/CALL_FLOW/Script 4.webm
+assets/Resources/CALL_FLOW/Script 3.webm
+assets/Resources/CALL_FLOW/Script 2.webm
+assets/Resources/CALL_FLOW/Our head office.webm
+assets/Resources/CALL_FLOW/Where are you calling from.webm
+assets/Resources/CALL_FLOW/Agent full name.webm
+assets/Resources/CALL_FLOW/Agent Name.webm
+assets/Resources/CALL_FLOW/Reason for call.webm
+assets/Resources/CALL_FLOW/Introduction 1.webm
+
+
+
+
+
+
+assets/Resources/PHONETICS/ALPHA.webm
+assets/Resources/PHONETICS/BRAVO.webm
+assets/Resources/PHONETICS/CHARLIE.webm
+assets/Resources/PHONETICS/DELTA.webm
+assets/Resources/PHONETICS/ECHO.webm
+assets/Resources/PHONETICS/FOXTROT.webm
+assets/Resources/PHONETICS/GOLF.webm
+assets/Resources/PHONETICS/HOTEL.webm
+assets/Resources/PHONETICS/INDIA.webm
+assets/Resources/PHONETICS/JULIET.webm
+assets/Resources/PHONETICS/KILO.webm
+assets/Resources/PHONETICS/LIMA.webm
+assets/Resources/PHONETICS/MAMA.webm
+assets/Resources/PHONETICS/NOVEMBER.webm
+assets/Resources/PHONETICS/OSCAR.webm
+assets/Resources/PHONETICS/PAPA.webm
+assets/Resources/PHONETICS/QUEBEC.webm
+assets/Resources/PHONETICS/ROMEO.webm
+assets/Resources/PHONETICS/SIERRA.webm
+assets/Resources/PHONETICS/TANGO.webm
+assets/Resources/PHONETICS/UNIFORM.webm
+assets/Resources/PHONETICS/VICTORY.webm
+assets/Resources/PHONETICS/WHISKY.webm
+assets/Resources/PHONETICS/XRAY.webm
+assets/Resources/PHONETICS/YANKEE.webm
+assets/Resources/PHONETICS/ZULU.webm
+
+assets/Resources/PHONETICS/NUMBERS/0.webm
+assets/Resources/PHONETICS/NUMBERS/1.webm
+assets/Resources/PHONETICS/NUMBERS/2.webm
+assets/Resources/PHONETICS/NUMBERS/3.webm
+assets/Resources/PHONETICS/NUMBERS/4.webm
+assets/Resources/PHONETICS/NUMBERS/5.webm
+assets/Resources/PHONETICS/NUMBERS/6.webm
+assets/Resources/PHONETICS/NUMBERS/7.webm
+assets/Resources/PHONETICS/NUMBERS/8.webm
+assets/Resources/PHONETICS/NUMBERS/9.webm
+
+
+assets/Resources/PROBING_INFO/First Name - pronounce.webm
+assets/Resources/PROBING_INFO/Full Name - ask.webm
+assets/Resources/PROBING_INFO/Homeowner - probe.webm
+assets/Resources/PROBING_INFO/Homestatus - ask.webm
+assets/Resources/PROBING_INFO/How do u spell that.webm
+assets/Resources/PROBING_INFO/Last Name - spelling.webm
+assets/Resources/PROBING_INFO/Last name pls0.webm
+assets/Resources/PROBING_INFO/Name - Richard.webm
+assets/Resources/PROBING_INFO/Richard Johnson.webm			
+assets/Resources/PROBING_INFO/Street Name House No.webm
+assets/Resources/PROBING_INFO/To address u more properly.webm
+assets/Resources/PROBING_INFO/Wonderful First Name.webm		
+
+
+assets/Resources/REBUTTALS/Age Probe 40s-50s.webm
+assets/Resources/REBUTTALS/Are u a recording.webm
+assets/Resources/REBUTTALS/Ask for more info.webm
+assets/Resources/REBUTTALS/Business No Work Phone..webm
+assets/Resources/REBUTTALS/Busy + NI.webm
+assets/Resources/REBUTTALS/Busy + POTC.webm
+assets/Resources/REBUTTALS/Closing NI.webm
+assets/Resources/REBUTTALS/Cozy Homes.webm
+assets/Resources/REBUTTALS/Diary Manager.webm
+assets/Resources/REBUTTALS/Discuss it first with partner.webm
+assets/Resources/REBUTTALS/DNC.webm
+assets/Resources/REBUTTALS/Dont want to confirm age.webm
+assets/Resources/REBUTTALS/Energy Saving Team.webm
+assets/Resources/REBUTTALS/ESL.webm
+assets/Resources/REBUTTALS/Extend Call.webm
+assets/Resources/REBUTTALS/Fiberglass Insulation.webm
+assets/Resources/REBUTTALS/First time called.webm
+assets/Resources/REBUTTALS/Free National Loft Survey.webm
+assets/Resources/REBUTTALS/How did u get my number.webm
+assets/Resources/REBUTTALS/How much - 75 pounds.webm
+assets/Resources/REBUTTALS/Insist to ask for more info.webm
+assets/Resources/REBUTTALS/Its a foamy fluffy type.webm
+assets/Resources/REBUTTALS/Loft insulation is ok - 5yrs and up.webm
+assets/Resources/REBUTTALS/Loft survey no cost.webm
+assets/Resources/REBUTTALS/Managers Call.webm
+assets/Resources/REBUTTALS/My insulation is OK.webm
+assets/Resources/REBUTTALS/Not Interested 1.webm
+assets/Resources/REBUTTALS/Not Interested 2.webm
+assets/Resources/REBUTTALS/Not Interested 3.webm
+assets/Resources/REBUTTALS/Not property owner - extend.webm
+assets/Resources/REBUTTALS/Owner - Husband.webm
+assets/Resources/REBUTTALS/POTC 1.webm
+assets/Resources/REBUTTALS/Prank.webm
+assets/Resources/REBUTTALS/Probe - below Age requirement.webm
+assets/Resources/REBUTTALS/Property owner.webm
+assets/Resources/REBUTTALS/Repeat Type of Insulation.webm
+assets/Resources/REBUTTALS/Repeat Type of the property.webm
+assets/Resources/REBUTTALS/Safety requirements.webm
+assets/Resources/REBUTTALS/St Helens UK.webm
+assets/Resources/REBUTTALS/Thanks 4 that question.webm
+assets/Resources/REBUTTALS/This is not a Sales call + POTC.webm
+assets/Resources/REBUTTALS/This is not a Sales call.webm
+assets/Resources/REBUTTALS/Tricky.webm
+assets/Resources/REBUTTALS/What is the survey about.webm
+assets/Resources/REBUTTALS/What is this all about - 2.webm
+assets/Resources/REBUTTALS/Where did u get my number.webm
+assets/Resources/REBUTTALS/Where u calling from.webm
+assets/Resources/REBUTTALS/Which sources.webm
+assets/Resources/REBUTTALS/Wrong Number.webm
+assets/Resources/REBUTTALS/Extend the call.webm
+assets/Resources/REBUTTALS/ABN Meaning.webm
+assets/Resources/REBUTTALS/Prank 2.webm
+assets/Resources/REBUTTALS/Language Barrier End.webm
+assets/Resources/REBUTTALS/Language Barrier.webm
+assets/Resources/REBUTTALS/Prank 1.webm
+assets/Resources/REBUTTALS/ABN.webm
+assets/Resources/REBUTTALS/CFN.webm
+assets/Resources/REBUTTALS/CFN meaning.webm
+assets/Resources/REBUTTALS/One off donation.webm
+assets/Resources/REBUTTALS/My name.webm
+assets/Resources/REBUTTALS/charity name.webm
+assets/Resources/REBUTTALS/Hold off processing donation.webm
+assets/Resources/REBUTTALS/I'm a pensioner (1).webm
+assets/Resources/REBUTTALS/DNC Resigter.webm
+assets/Resources/REBUTTALS/Compassion Response.webm
+assets/Resources/REBUTTALS/Cant' hear you end the call.webm
+assets/Resources/REBUTTALS/Call back.webm
+assets/Resources/REBUTTALS/Call back later.webm
+assets/Resources/REBUTTALS/Busy can't talk. Call back.webm
+assets/Resources/REBUTTALS/Big Spenders.webm
+assets/Resources/REBUTTALS/Bad line - can you hear me now.webm
+assets/Resources/REBUTTALS/Are you confident with that amount.webm
+assets/Resources/REBUTTALS/Are you a legit charity.webm
+assets/Resources/REBUTTALS/I helped you already.webm
+assets/Resources/REBUTTALS/I'm retired.webm
+assets/Resources/REBUTTALS/Tricky question can't answer.webm
+assets/Resources/REBUTTALS/Website spell out.webm
+assets/Resources/REBUTTALS/POA 80+ check.webm
+assets/Resources/REBUTTALS/Promise not to keep long.webm
+assets/Resources/REBUTTALS/Script 6.webm
+assets/Resources/REBUTTALS/Website Address.webm
+assets/Resources/REBUTTALS/Limited government funding.webm
+assets/Resources/REBUTTALS/Not trained to naswer that.webm
+assets/Resources/REBUTTALS/Notice same voice on othe charity.webm
+assets/Resources/REBUTTALS/One off or Monthly.webm
+assets/Resources/REBUTTALS/One off.webm
+assets/Resources/REBUTTALS/No POA response.webm
+assets/Resources/REBUTTALS/Not appropriate for donation.webm
+assets/Resources/REBUTTALS/Mom or Dad.webm
+assets/Resources/REBUTTALS/I help other charities.webm
+assets/Resources/REBUTTALS/Hold Off.webm
+assets/Resources/REBUTTALS/How much donation goes to charity.webm
+assets/Resources/REBUTTALS/How much money goes to Admin.webm
+assets/Resources/REBUTTALS/Just bear with me.webm
+assets/Resources/REBUTTALS/Can I have your Website.webm
+assets/Resources/REBUTTALS/Hold the line.webm
+assets/Resources/REBUTTALS/Can I confirm youre above 18.webm
+assets/Resources/REBUTTALS/Are you a volunteer.webm
+assets/Resources/REBUTTALS/No response.webm
+assets/Resources/REBUTTALS/Transfer.webm
+assets/Resources/REBUTTALS/Thank you so much.webm
+assets/Resources/REBUTTALS/Thank you no donation.webm
+assets/Resources/REBUTTALS/Thank for support.webm
+assets/Resources/REBUTTALS/Sorry to hear, bye.webm
+assets/Resources/REBUTTALS/I'll hangup and callback.webm
+assets/Resources/REBUTTALS/Donation Xfer to supervisor [X].webm
+assets/Resources/REBUTTALS/This is not a Sales call.webm
+assets/Resources/REBUTTALS/Wrong Number.webm
+assets/Resources/REBUTTALS/Which sources.webm
+assets/Resources/REBUTTALS/Where u calling from.webm
+assets/Resources/REBUTTALS/Where did u get my number.webm
+assets/Resources/REBUTTALS/What is this all about -2.webm
+assets/Resources/REBUTTALS/What is the survey about.webm
+assets/Resources/REBUTTALS/Tricky.webm
+assets/Resources/REBUTTALS/This is not a Sales call + POTC.webm
+assets/Resources/REBUTTALS/Thanks 4 that question.webm
+assets/Resources/REBUTTALS/St Helens UK.webm
+assets/Resources/REBUTTALS/Safety requirements.webm
+assets/Resources/REBUTTALS/Repeat Type of the property.webm
+assets/Resources/REBUTTALS/Repeat Type of Insulation.webm
+assets/Resources/REBUTTALS/Property owner.webm
+assets/Resources/REBUTTALS/Probe - below Age requirement.webm
+assets/Resources/REBUTTALS/Prank.webm
+assets/Resources/REBUTTALS/POTC 1.webm
+assets/Resources/REBUTTALS/Owner - Husband.webm
+assets/Resources/REBUTTALS/Not property owner - extend.webm
+assets/Resources/REBUTTALS/Not Interested 3.webm
+assets/Resources/REBUTTALS/Not Interested 2.webm
+assets/Resources/REBUTTALS/Not Interested 1.webm
+assets/Resources/REBUTTALS/My insulation is OK.webm
+assets/Resources/REBUTTALS/Managers Call.webm
+assets/Resources/REBUTTALS/Loft survey no cost.webm
+assets/Resources/REBUTTALS/Loft insulation is ok - 5yrs and up.webm
+assets/Resources/REBUTTALS/Its a foamy fluffy type.webm
+assets/Resources/REBUTTALS/Insist to ask for more info.webm
+assets/Resources/REBUTTALS/How much -75 pounds.webm
+assets/Resources/REBUTTALS/How did u get my number.webm
+assets/Resources/REBUTTALS/Free National Loft Survey.webm
+assets/Resources/REBUTTALS/First time called.webm
+assets/Resources/REBUTTALS/Fiberglass Insulation.webm
+assets/Resources/REBUTTALS/Extend Call.webm
+assets/Resources/REBUTTALS/ESL.webm
+assets/Resources/REBUTTALS/Energy Saving Team.webm
+assets/Resources/REBUTTALS/Dont want to confirm age.webm
+assets/Resources/REBUTTALS/DNC.webm
+assets/Resources/REBUTTALS/Discuss it first with partner.webm
+assets/Resources/REBUTTALS/Diary Manager.webm
+assets/Resources/REBUTTALS/Cozy Homes.webm
+assets/Resources/REBUTTALS/Closing NI.webm
+assets/Resources/REBUTTALS/Busy + POTC.webm
+assets/Resources/REBUTTALS/Busy + NI.webm
+assets/Resources/REBUTTALS/Business No Work Phone.webm
+assets/Resources/REBUTTALS/Ask for more info.webm
+assets/Resources/REBUTTALS/Are u a recording.webm
+assets/Resources/REBUTTALS/Age Probe 40s-50s.webm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+assets/Resources/TRANSITIONAL/Again.webm
+assets/Resources/TRANSITIONAL/Ahah.webm
+assets/Resources/TRANSITIONAL/Almost done.webm
+assets/Resources/TRANSITIONAL/Alright moving on.webm
+assets/Resources/TRANSITIONAL/Amazing day.webm
+assets/Resources/TRANSITIONAL/Anyone there hello..webm
+assets/Resources/TRANSITIONAL/Apologize.webm
+assets/Resources/TRANSITIONAL/Babye for now.webm
+assets/Resources/TRANSITIONAL/Badline - fix system.webm
+assets/Resources/TRANSITIONAL/Bear with me.webm
+assets/Resources/TRANSITIONAL/Bringing up to our attn.webm
+assets/Resources/TRANSITIONAL/By the way.webm
+assets/Resources/TRANSITIONAL/Can u hear me.webm
+assets/Resources/TRANSITIONAL/Clarify.webm
+assets/Resources/TRANSITIONAL/Congratulations.webm
+assets/Resources/TRANSITIONAL/Correct.webm
+assets/Resources/TRANSITIONAL/Dead Air.webm
+assets/Resources/TRANSITIONAL/Few questions left.webm
+assets/Resources/TRANSITIONAL/Few questions to go.webm
+assets/Resources/TRANSITIONAL/Forgot to ask.webm
+assets/Resources/TRANSITIONAL/Going back.webm
+assets/Resources/TRANSITIONAL/Good to hear.webm
+assets/Resources/TRANSITIONAL/Got it.webm
+assets/Resources/TRANSITIONAL/Hello can you hear me.webm
+assets/Resources/TRANSITIONAL/Hello hello.webm
+assets/Resources/TRANSITIONAL/Hope u doin well.webm
+assets/Resources/TRANSITIONAL/I completely understand.webm
+assets/Resources/TRANSITIONAL/I see.webm
+assets/Resources/TRANSITIONAL/If thats OK ill proceed now.webm
+assets/Resources/TRANSITIONAL/Just bear w me one moment.webm
+assets/Resources/TRANSITIONAL/Just before you go.webm
+assets/Resources/TRANSITIONAL/Last part.webm
+assets/Resources/TRANSITIONAL/Lastly.webm
+assets/Resources/TRANSITIONAL/Least i can do.webm
+assets/Resources/TRANSITIONAL/Let me repeat.webm
+assets/Resources/TRANSITIONAL/Lovely.webm
+assets/Resources/TRANSITIONAL/Moving on nxt question.webm
+assets/Resources/TRANSITIONAL/next question is.webm
+assets/Resources/TRANSITIONAL/No worries.webm
+assets/Resources/TRANSITIONAL/No.webm
+assets/Resources/TRANSITIONAL/Oh Yeah Haha.webm
+assets/Resources/TRANSITIONAL/Ok cool.webm
+assets/Resources/TRANSITIONAL/Ok great.webm
+assets/Resources/TRANSITIONAL/OK.webm
+assets/Resources/TRANSITIONAL/Only have few questions.webm
+assets/Resources/TRANSITIONAL/Perfect.webm
+assets/Resources/TRANSITIONAL/Problem with the line.webm
+assets/Resources/TRANSITIONAL/quick as possible.webm
+assets/Resources/TRANSITIONAL/R u saying something.webm
+assets/Resources/TRANSITIONAL/Repeat please.webm
+assets/Resources/TRANSITIONAL/Repeat Slowly.webm
+assets/Resources/TRANSITIONAL/Right.webm
+assets/Resources/TRANSITIONAL/Sorry about that.webm
+assets/Resources/TRANSITIONAL/Sounds great.webm
+assets/Resources/TRANSITIONAL/Speak slowly pls.webm
+assets/Resources/TRANSITIONAL/Take few minutes.webm
+assets/Resources/TRANSITIONAL/Thank U.webm
+assets/Resources/TRANSITIONAL/Thank You so much.webm
+assets/Resources/TRANSITIONAL/Thats wonderful.webm
+assets/Resources/TRANSITIONAL/Were almost done.webm
+assets/Resources/TRANSITIONAL/Would that be OK.webm
+assets/Resources/TRANSITIONAL/Would u like to proceed.webm
+assets/Resources/TRANSITIONAL/Yeah im here.webm
+assets/Resources/TRANSITIONAL/Yeah.webm
+assets/Resources/TRANSITIONAL/Yes or No.webm
+assets/Resources/TRANSITIONAL/Yes.webm
+assets/Resources/TRANSITIONAL/Youre welcome.webm
+
+
+
+
+
+
+
+
+
+
+assets/Resources/FILLERS/Just bear with me.webm
+assets/Resources/FILLERS/Ok 2.webm
+assets/Resources/FILLERS/Yes.webm
+assets/Resources/FILLERS/Yep.webm
+assets/Resources/FILLERS/Uhmm.webm
+assets/Resources/FILLERS/That make sense.webm
+assets/Resources/FILLERS/Sorry to bother.webm
+assets/Resources/FILLERS/Repeat that.webm
+assets/Resources/FILLERS/Ok.webm
+assets/Resources/FILLERS/Oh that's great.webm
+assets/Resources/FILLERS/Oh Thank you.webm
+assets/Resources/FILLERS/Oh good glad to hear that.webm
+assets/Resources/FILLERS/Ofcourse.webm
+assets/Resources/FILLERS/Ofcourse 2.webm
+assets/Resources/FILLERS/No.webm
+assets/Resources/FILLERS/No worries.webm
+assets/Resources/FILLERS/No response.webm
+assets/Resources/FILLERS/Maybe.webm
+assets/Resources/FILLERS/Laugh.webm
+assets/Resources/FILLERS/Laugh 2.webm
+assets/Resources/FILLERS/Is that ok.webm
+assets/Resources/FILLERS/I'm well thank you.webm
+assets/Resources/FILLERS/I'm sorry.webm
+assets/Resources/FILLERS/I'm good.webm
+assets/Resources/FILLERS/I see.webm
+assets/Resources/FILLERS/I completely understand.webm
+assets/Resources/FILLERS/I completely understand 2.webm
+assets/Resources/FILLERS/I agree.webm
+assets/Resources/FILLERS/Hi.webm
+assets/Resources/FILLERS/Having trouble hearing you.webm
+assets/Resources/FILLERS/Great.webm
+assets/Resources/FILLERS/Feel better soon.webm
+assets/Resources/FILLERS/Don't want to overburden you.webm
+assets/Resources/FILLERS/Can you hear me.webm
+assets/Resources/FILLERS/Bye.webm
+assets/Resources/FILLERS/Bye now.webm
+assets/Resources/FILLERS/By the way.webm
+assets/Resources/FILLERS/As we we're talking about.webm
+assets/Resources/FILLERS/Apologized.webm
+assets/Resources/FILLERS/ah-huh.webm
+
+
+
+
+assets/Resources/CLOSING/Donor notice recording -XFER.webm
+assets/Resources/CLOSING/Call 20 back.webm
+assets/Resources/CLOSING/Cant' hear you end the call.webm
+assets/Resources/CLOSING/Donation Xfer to supervisor BX D.webm
+assets/Resources/CLOSING/Busy can't talk. Call back.webm
+assets/Resources/CLOSING/Call back later.webm
+assets/Resources/CLOSING/Supervisor on another call.webm
+assets/Resources/CLOSING/Supervisor still busy CB in 5 minutes.webm
+assets/Resources/CLOSING/Thank for support.webm
+assets/Resources/CLOSING/Than you no donation.webm
+assets/Resources/CLOSING/Thank you so much.webm
+assets/Resources/CLOSING/Transfer.webm
+assets/Resources/CLOSING/I'll hangup and callback.webm
+assets/Resources/CLOSING/Sorry to hear C bye.webm
+assets/Resources/CLOSING/Sorry to hear thanks bye.webm
+assets/Resources/CLOSING/Storry Teller.webm
+
+
+
+
+NETWORK:
+ 
+FALLBACK:

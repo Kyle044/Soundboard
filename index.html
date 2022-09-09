@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html manifest="example.appcache">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>PBCF V4</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/styles.min.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!---Preload Audio Files--->
+	<script type="text/javascript" src="assets/js/js1.js"></script>
+
+
+	<!---stop button--->
+	<audio preload="auto" id="blank" src="assets/Resources/blank.webm"></audio>
+
+
+	<!---Recordings--->
+
+
+	<!-- CLOSING -->
+
+	<!-- <audio preload="auto" id="cls1" src="assets/Resources/CLOSING/Donor notice recording - XFER.webm"></audio> -->
+
+
+
+
+
+	<style>
+		.tooltip {
+			font-size: 10px;
+		}
+	</style>
+</head>
+
+<body style="background: rgb(156,155,155);">
+	<div class="row text-center" style="margin-right:10px; margin-left:10px;">
+		<div class="col" style="margin-top: 20px;"></div>
+	</div>
+	<div class="row" style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+		<div class="col-xl-3">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="mb-0 font-weight-bold">Action</h6>
+				</div>
+				<div class="card-body">
+					<div class="row" style="text-align: center;">
+						<div class="col">
+							<div class="row">
+								<div class="col"><button class="btn btn-danger" type="button" data-toggle="tooltip"
+										data-bs-tooltip="" title="Stop playing audio" onclick="stop_play()"
+										style="font-weight:bold; font-size:11px; width:100%;">Stop Audio</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="card">
+				<div class="card-header">
+					<h6 class="mb-0 font-weight-bold">Modal Window</h6>
+				</div>
+				<div class="card-body">
+					<div class="row" style="text-align: center;">
+						<div class="col">
+							<div class="row">
+								<div class="col" style="padding-right:5px; padding-left:5px;"><button
+										class="btn btn-warning" type="button" data-toggle="modal"
+										data-target="#modalWindow"
+										style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">LEVELS
+										OF SUPPORT</button></div>
+							</div>
+
+							<div class="row" style="margin-top:5px;">
+								<div class="col" style="padding-right:5px; padding-left:5px;"><button
+										class="btn btn-success" type="button" data-toggle="modal"
+										data-target="#modalWindow2"
+										style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">PAYMENT
+										METHOD</button></div>
+							</div>
+
+							<div class="row" style="margin-top:5px;">
+								<div class="col" style="padding-right:5px; padding-left:5px;"><button
+										class="btn btn-info" type="button" data-toggle="modal"
+										data-target="#modalWindow3"
+										style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">XFER
+										/ CLOSING SPIEL</button></div>
+							</div>
+
+
+							<div class="row" style="margin-top:5px;">
+								<div class="col" style="padding-right:5px; padding-left:5px;"><button
+										class="btn btn-primary" type="button" data-toggle="modal"
+										data-target="#modalWindow4"
+										style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">REBUTTALS</button>
+								</div>
+							</div>
+							<div class="row" style="margin-top:5px;">
+								<div class="col" style="padding-right:5px; padding-left:5px;"><button
+										class="btn btn-dark" type="button" data-toggle="modal"
+										data-target="#modalWindow5"
+										style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">FILLERS</button>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Dashboard -->
+		<!-- Step 1 -->
+		<div class="col step">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="mb-0 font-weight-bold">Step 1</h6>
+				</div>
+				<div class="card-body">
+					<div class="row" style="text-align:center; margin-top:5px;">
+
+
+						step1
+
+
+
+
+					</div>
+
+
+
+
+
+					<button class="btn btn-success" type="button" onclick="next_step()"
+						style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">NEXT
+						STEP</button>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- Step 2 -->
+		<div class="col step">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="mb-0 font-weight-bold">Step 2</h6>
+				</div>
+				<div class="card-body">
+					<div class="row" style="text-align:center; margin-top:5px;">
+
+
+						step2
+
+
+
+
+					</div>
+
+
+
+
+					<button class="btn btn-success" type="button" onclick="next_step()"
+						style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">NEXT
+						STEP</button>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- Step 3 -->
+		<div class="col step">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="mb-0 font-weight-bold">Step 3</h6>
+				</div>
+				<div class="card-body">
+					<div class="row" style="text-align:center; margin-top:5px;">
+
+
+						step3
+
+
+
+
+					</div>
+
+
+
+
+
+					<button class="btn btn-success" type="button"
+						style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;"
+						onclick="reset()">FINISH</button>
+
+
+				</div>
+			</div>
+		</div>
+		<!-- Modal Window 1-->
+		<div class="modal fade" id="modalWindow" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:90%;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span style="font-size:13px; font-weight:bold;">Modal Window</span>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height:526px; overflow-y:auto;">
+						<div class="row"
+							style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+							<div class="col">
+								<div class="row" style="text-align: center;">
+									<div class="col-xl-3">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">Action</span></div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<div class="row">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-danger" type="button"
+																	data-toggle="tooltip" data-bs-tooltip=""
+																	title="Stop playing audio" onclick="stop_play()"
+																	style="font-weight:bold; font-size:11px; width:100%;">Stop
+																	Audio</button></div>
+														</div>
+														<div class="row" style="margin-top:5px;">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-secondary" type="button"
+																	data-toggle="modal" data-dismiss="modal"
+																	style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">Close</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">LEVELS OF SUPPORT</span></div>
+											<div class="card-body">
+												<div class="row">
+
+
+
+
+
+
+
+													<!-- <div class="col" style="padding-right:5px; padding-left:5px;">
+														<button class="btn btn-warning" type="button"
+															data-toggle="tooltip" data-bs-tooltip="" title="$600 will help us provide a special CanCare Cancer Research Scholarship to train young scientists in cancer research
+" onclick="play_pt19()" style="font-size:11px; padding-right:5px; padding-left:5px; width:100%;">$600<i
+																class="fa fa-volume-up"
+																style="margin-left: 10px;"></i></button>
+													</div> -->
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											</div>
+										</div>
+
+									</div>
+
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="modal fade" id="modalWindow2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:90%;">
+				<div class="modal-content" style="height: 75vh;">
+					<div class="modal-header">
+						<span style="font-size:13px; font-weight:bold;">Modal Window</span>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height:526px; overflow-y:auto;">
+						<div class="row"
+							style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+							<div class="col">
+								<div class="row" style="text-align: center;">
+									<div class="col-xl-3">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">Action</span></div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<div class="row">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-danger" type="button"
+																	data-toggle="tooltip" data-bs-tooltip=""
+																	title="Stop playing audio" onclick="stop_play()"
+																	style="font-weight:bold; font-size:11px; width:100%;">Stop
+																	Audio</button></div>
+														</div>
+														<div class="row" style="margin-top:5px;">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-secondary" type="button"
+																	data-toggle="modal" data-dismiss="modal"
+																	style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">Close</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">PAYMENT METHOD</span></div>
+											<div class="card-body">
+												<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="modal fade" id="modalWindow3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:90%;">
+				<div class="modal-content" style="height:75vh;">
+					<div class="modal-header">
+						<span style="font-size:13px; font-weight:bold;">Modal Window</span>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height:526px; overflow-y:auto;">
+						<div class="row"
+							style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+							<div class="col">
+								<div class="row" style="text-align: center;">
+									<div class="col-xl-3">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">Action</span></div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<div class="row">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-danger" type="button"
+																	data-toggle="tooltip" data-bs-tooltip=""
+																	title="Stop playing audio" onclick="stop_play()"
+																	style="font-weight:bold; font-size:11px; width:100%;">Stop
+																	Audio</button></div>
+														</div>
+														<div class="row" style="margin-top:5px;">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-secondary" type="button"
+																	data-toggle="modal" data-dismiss="modal"
+																	style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">Close</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">XFER / CLOSING SPIEL</span></div>
+											<div class="card-body">
+												<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="modal fade" id="modalWindow4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:100%;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span style="font-size:13px; font-weight:bold;">Modal Window</span>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height:650px; overflow-y:auto;">
+						<div class="row"
+							style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+							<div class="col">
+								<div class="row" style="text-align: center;">
+									<div class="col-xl-3">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">Action</span></div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<div class="row">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-danger" type="button"
+																	data-toggle="tooltip" data-bs-tooltip=""
+																	title="Stop playing audio" onclick="stop_play()"
+																	style="font-weight:bold; font-size:11px; width:100%;">Stop
+																	Audio</button></div>
+														</div>
+														<div class="row" style="margin-top:5px;">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;"><button
+																	class="btn btn-secondary" type="button"
+																	data-toggle="modal" data-dismiss="modal"
+																	style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">Close</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">REBUTTALS</span></div>
+											<div class="card-body">
+												<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+												</div>
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+												</div>
+
+
+
+
+
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="modal fade" id="modalWindow5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document" style="max-width:100%;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span style="font-size:13px; font-weight:bold;">Modal Window</span>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height:650px; overflow-y:auto;">
+						<div class="row"
+							style="margin-top:20px; margin-right:10px; margin-left:10px; margin-bottom:20px;">
+							<div class="col">
+								<div class="row" style="text-align: center;">
+									<div class="col-xl-3">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">Action</span></div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col">
+														<div class="row">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;">
+																<button class="btn btn-danger" type="button"
+																	data-toggle="tooltip" data-bs-tooltip=""
+																	title="Stop playing audio" onclick="stop_play()"
+																	style="font-weight:bold; font-size:11px; width:100%;">Stop
+																	Audio</button>
+															</div>
+														</div>
+														<div class="row" style="margin-top:5px;">
+															<div class="col"
+																style="padding-right:5px; padding-left:5px;">
+																<button class="btn btn-secondary" type="button"
+																	data-toggle="modal" data-dismiss="modal"
+																	style="font-weight:bold; font-size:11px; padding-right:5px; padding-left:5px; width:100%;">Close</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-header" style="font-size:12px;"><span
+													style="font-weight:bold">FILLERS</span></div>
+											<div class="card-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												<div class="row">
+
+
+
+
+
+
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+												</div>
+
+												<div class="row" style="margin-top:5px;">
+
+
+
+
+
+
+
+
+
+
+												</div>
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
